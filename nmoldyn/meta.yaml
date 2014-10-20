@@ -1,0 +1,33 @@
+package:
+  name: nmoldyn
+  version: 3.0.10
+
+build: 
+  number: 3
+
+source:
+  fn: nMOLDYN-3.0.10.zip
+  url: https://forge.epn-campus.eu/attachments/download/1161/nMOLDYN-3.0.10.zip
+
+requirements:
+  build:
+    - system
+    - python
+    - setuptools
+    - mmtk
+    - tk
+    - scientific-python
+    - matplotlib
+    - pyro
+  run:
+    - system
+    - python
+    - mmtk
+    - tk
+    - scientific-python
+    - matplotlib
+    - pyro
+
+about:
+  home: http://dirac.cnrs-orleans.fr/plone/software/nmoldyn
+  license: CeCILL FREE SOFTWARE LICENSE

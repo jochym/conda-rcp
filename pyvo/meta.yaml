@@ -1,0 +1,23 @@
+package:
+  name: pyvo
+  version: 0.0beta2
+
+source:
+  fn: pyvo-0.0beta2.tar.gz
+  url: https://pypi.python.org/packages/source/p/pyvo/pyvo-0.0beta2.tar.gz
+  md5: 3e04bbfe61ecbd1b89c40073ff7fb9de
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+    - astropy
+  run:
+    - python
+    - numpy
+    - astropy
+
+about:
+  home: http://www.astropy.org/
+  license: BSD
