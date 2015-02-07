@@ -1,11 +1,12 @@
 package:
   name: phonopy
+  version: 1.9.2.3
 
 source:
-#  git_tag: 1.9.2.x
+  git_tag: v1.9.2.3-pre.1
   git_url: https://github.com/jochym/phonopy.git
 
-# build:
+build:
   #preserve_egg_dir: True
   #entry_points:
     # Put any entry points (scripts to be generated automatically) here. The
@@ -18,7 +19,7 @@ source:
 
   # If this is a new build for the same version, increment the build
   # number. If you do not include this key, it defaults to 0.
-  # number: 1
+  number: 2
 
 requirements:
   build:
