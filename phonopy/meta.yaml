@@ -1,14 +1,9 @@
 package:
   name: phonopy
-  version: !!str 1.9.0.1
 
 source:
-  fn: phonopy-1.9.0.1.tar.gz
-  url: http://downloads.sourceforge.net/project/phonopy/phonopy/phonopy-1.9/phonopy-1.9.0.1.tar.gz
-#  md5: 6ebb277694e04f56644776d4396b3933
-#  patches:
-   # List any patch files here
-   # - fix.patch
+#  git_tag: 1.9.2.x
+  git_url: https://github.com/jochym/phonopy.git
 
 # build:
   #preserve_egg_dir: True
