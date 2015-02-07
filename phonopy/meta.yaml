@@ -1,6 +1,6 @@
 package:
   name: phonopy
-  version: 1.9.2.3
+  version: !!str 1.9.2.3
 
 source:
   git_tag: v1.9.2.3-pre.1
