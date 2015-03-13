@@ -1,11 +1,9 @@
 package:
   name: spglib
-  version: !!str 1.6.3
+  version: !!str 1.7.2
 
 source:
-  fn: spglib-1.6.3.tar.gz
-  url: http://downloads.sourceforge.net/project/spglib/spglib/spglib-1.6/spglib-1.6.3.tar.gz
-#  md5: 8ae328fbd0ed381355c756bffca5653a
+  git_url: https://github.com/atztogo/spglib.git
 #  patches:
    # List any patch files here
    # - fix.patch

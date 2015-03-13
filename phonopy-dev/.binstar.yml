@@ -35,11 +35,10 @@ package: phonopy
 #===============================================================================
 
 ## Run before the script
-# before_script:
-#   - echo "before_script!"
+before_script:
+   - conda config --add channels https://conda.binstar.org/jochym
 ## Put your main computations here!  
 script:
-  - echo "This is my binstar build!"
   - conda build .
 ## This will run after the script regardless of the result of script
 ## BINSTAR_BUILD_RESULT=[succcess|failure] 
