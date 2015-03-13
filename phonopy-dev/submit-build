@@ -1,5 +1,5 @@
 #!/bin/bash
 
-binstar-build submit -p jochym/phonopy --channel dev -sub-dir phonopy-dev https://github.com/jochym/conda-rcp
+binstar-build submit -p jochym/phonopy --channel dev --sub-dir phonopy-dev https://github.com/jochym/conda-rcp
 
 
