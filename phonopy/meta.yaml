@@ -41,7 +41,10 @@ test:
   commands:
     # You can put test commands to be run here.  Use this to test that the
     # entry points work.
-    - phonopy -v
+    - cd example/MgO 
+    - phonopy -f vasprun.xml-001 vasprun.xml-002
+    - phonopy -p band.conf
+    - phonopy -p --nac band.conf
 
 
   # You can also put a file called run_test.py in the recipe that will be run
