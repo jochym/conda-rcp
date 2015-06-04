@@ -1,0 +1,60 @@
+package:
+  name: stsci.distutils
+  version: "0.3.7"
+
+source:
+  fn: stsci.distutils-0.3.7.tar.gz
+  url: https://pypi.python.org/packages/source/s/stsci.distutils/stsci.distutils-0.3.7.tar.gz
+  md5: 65c866c0444f6a8effe2d41688606a0c
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+# build:
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - stsci.distutils = stsci.distutils:main
+    #
+    # Would create an entry point called stsci.distutils that calls stsci.distutils.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  number: 2
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  # Python imports
+  imports:
+    - stsci
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://pypi.python.org/packages/source/s/stsci.distutils/
+  license: BSD License
+  summary: "distutils/packaging-related utilities used by some of STScI's packages"
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
