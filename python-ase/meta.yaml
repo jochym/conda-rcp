@@ -54,7 +54,6 @@ test:
     - ase.lattice.spacegroup
     - ase.md
     - ase.optimize
-    - ase.optimize.test
     - ase.tasks
     - ase.test
     - ase.test.abinit
@@ -76,7 +75,6 @@ test:
     - ase.utils
     - ase.vibrations
     - ase.visualize
-    - ase.visualize.vtk
 
   # commands:
     # You can put test commands to be run here.  Use this to test that the
