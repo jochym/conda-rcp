@@ -5,9 +5,10 @@ package:
 source:
   #git_url: https://github.com/atztogo/phonopy.git
   url: http://downloads.sourceforge.net/project/phonopy/phonopy/phonopy-1.9/phonopy-1.9.4.tar.gz
+  fn: phonopy.tgz
 
 build:
-  number: 5
+  number: 6
 
 requirements:
   build:
