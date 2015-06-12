@@ -27,6 +27,7 @@ requirements:
     - setuptools
     - numpy
     - stsci.distutils
+    - d2to1
 
   run:
     - python
