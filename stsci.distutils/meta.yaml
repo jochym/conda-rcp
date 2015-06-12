@@ -10,7 +10,7 @@ source:
    # List any patch files here
    # - fix.patch
 
-# build:
+build:
   # preserve_egg_dir: True
   # entry_points:
     # Put any entry points (scripts to be generated automatically) here. The
@@ -29,6 +29,7 @@ requirements:
   build:
     - python
     - setuptools
+    - d2to1
 
   run:
     - python
