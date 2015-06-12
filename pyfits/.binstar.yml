@@ -41,6 +41,7 @@ package: pyfits
 script:
   - echo "This is my binstar build!"
   - conda update -n root conda-build
+  - conda config --add channels http://conda.binstar.org/jochym
   - conda build .
 ## This will run after the script regardless of the result of script
 ## BINSTAR_BUILD_RESULT=[succcess|failure] 
