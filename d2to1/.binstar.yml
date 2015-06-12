@@ -2,7 +2,7 @@ package: d2to1
 
 engine:
   - python=2
-  - python=3
+#  - python=3
 ## The env param is an environment variable list 
 # engine:
 #  - MY_ENV=A CC=gcc
