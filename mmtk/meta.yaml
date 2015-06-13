@@ -18,8 +18,8 @@ requirements:
     - scientificpython
 #    - matplotlib
 #    - pyro
-#    - libnetcdf
-#    - netcdf
+    - libnetcdf
+    - netcdf
 #    - curl
   run:
     - system
