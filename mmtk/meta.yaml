@@ -15,7 +15,7 @@ requirements:
     - python
     - setuptools
 #    - tk
-#    - scientific-python
+    - scientific-python
 #    - matplotlib
 #    - pyro
 #    - libnetcdf
