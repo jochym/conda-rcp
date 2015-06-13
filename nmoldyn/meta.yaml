@@ -19,6 +19,9 @@ requirements:
     - scientific-python
     - matplotlib
     - pyro
+    - libnetcdf
+    - netcdf
+    - curl
   run:
     - system
     - python
