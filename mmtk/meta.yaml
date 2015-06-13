@@ -1,0 +1,34 @@
+package:
+  name: mmtk
+  version: 2.6.1
+
+build: 
+  number: 0
+
+source:
+  fn: MMTK-2.6.1.tar.gz
+  url: https://sourcesup.renater.fr/frs/download.php/latestfile/247/MMTK-2.6.1.tar.gz
+
+requirements:
+  build:
+    - system
+    - python
+    - setuptools
+#    - tk
+#    - scientific-python
+#    - matplotlib
+#    - pyro
+#    - libnetcdf
+#    - netcdf
+#    - curl
+  run:
+    - system
+    - python
+    - tk
+    - scientific-python
+    - matplotlib
+    - pyro
+
+about:
+  home: http://dirac.cnrs-orleans.fr/plone/software/nmoldyn
+  license: CeCILL FREE SOFTWARE LICENSE
