@@ -22,6 +22,7 @@ engine:
 script:
   - conda update -n root conda-build
   - conda config --add channels http://conda.binstar.org/jochym
+  - conda config --add channels https://conda.binstar.org/juanlu001
   - conda build .
 
 ## This will run after the script regardless of the result of script
