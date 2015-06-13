@@ -19,7 +19,7 @@ requirements:
 #    - matplotlib
 #    - pyro
     - libnetcdf
-    - netcdf
+    - netcdf4
 #    - curl
   run:
     - system
