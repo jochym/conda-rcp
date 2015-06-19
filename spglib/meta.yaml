@@ -3,8 +3,8 @@ package:
   version: !!str 1.7.4
 
 source:
-  # git_url: https://github.com/atztogo/spglib.git
-  url: http://downloads.sourceforge.net/project/spglib/spglib/spglib-1.7/spglib-1.7.4.tar.gz
+  git_url: https://github.com/atztogo/spglib.git
+  #url: http://downloads.sourceforge.net/project/spglib/spglib/spglib-1.7/spglib-1.7.4.tar.gz
 
 build:
   preserve_egg_dir: True
