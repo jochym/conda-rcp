@@ -1,10 +1,10 @@
 package:
   name: spglib
-  version: !!str 1.7.4
+  version: !!str 1.8.0
 
 source:
   git_url: https://github.com/jochym/spglib.git
-  git_tag: v1.7.4
+  #git_tag: v1.8.0
   #url: http://downloads.sourceforge.net/project/spglib/spglib/spglib-1.7/spglib-1.7.4.tar.gz
 
 build:
@@ -20,7 +20,7 @@ build:
 
   # If this is a new build for the same version, increment the build
   # number. If you do not include this key, it defaults to 0.
-  number: 3
+  number: 0
 
 requirements:
   build:
