@@ -1,0 +1,67 @@
+package:
+  name: phono3py
+  version: !!str 0.9.10.1
+
+source:
+  git_url: https://github.com/jochym/phonopy.git
+  #url: http://downloads.sourceforge.net/project/phonopy/phono3py/phono3py-0.9.10.1.tar.gz
+  #fn: phonopy.tgz
+
+build:
+  number: 3
+
+requirements:
+  build:
+    - python
+    - numpy
+    - spglib
+
+  run:
+    - python
+    - numpy
+    - matplotlib
+    - spglib
+    - pyyaml
+    - h5py
+
+test:
+  # Python imports
+  # imports:
+  #  - phono3py
+
+  commands:
+#    # You can put test commands to be run here.  Use this to test that the
+     # entry points work.
+    - cp -r ../work/example-phono3py/Si example
+    - cd example
+    - rm Si-band-DOS.png Si-kaccum.png
+    - phono3py --dim="2 2 2" --sym_fc3r --sym_fc2 --tsym -c POSCAR-unitcell
+    - phono3py --dim="2 2 2" --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" -c POSCAR-unitcell --mesh="11 11 11" --fc3 --fc2 --thm --br
+    - kaccum --mesh="11 11 11" --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR-unitcell kappa-m111111.hdf5 > kaccum.dat
+    - cp fc2.hdf5 force_constants.hdf5
+    - phonopy --dim="2 2 2" --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" -c POSCAR-unitcell --mesh="19 19 19" --band="1/2 1/2 0 0 0 0 1/2 1/2 1/2" --hdf5 --readfc --thm  
+    # - p
+    # - echo 'p "kaccum.dat" i 30 u 1:2 w l, "kaccum.dat" i 30 u 1:8 w l'|gnuplot -persist
+    # - phono3py --dim="2 2 2" -c POSCAR-unitcell
+    # - cd example/MgO 
+    # - phonopy -f vasprun.xml-001 vasprun.xml-002
+    # - phonopy -p band.conf
+    # - phonopy -p --nac band.conf
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+    - phonopy
+
+about:
+  home: http://phonopy.sourceforge.net/
+  license: BSD
+  summary: 'Phonon calculation with finite displacements method.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
