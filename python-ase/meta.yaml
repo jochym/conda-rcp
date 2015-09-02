@@ -1,10 +1,10 @@
 package:
   name: python-ase
-  version: "3.9.0"
+  version: "3.9.1"
 
 source:
-  fn:  python-ase-3.9.0.4465.tar.gz
-  url: https://wiki.fysik.dtu.dk/ase-files/python-ase-3.9.0.4465.tar.gz
+  fn:  python-ase-3.9.1.4567.tar.gz
+  url: https://wiki.fysik.dtu.dk/ase-files/python-ase-3.9.1.4567.tar.gz
 #  patches:
    # List any patch files here
    # - fix.patch
