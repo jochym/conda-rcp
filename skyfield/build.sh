@@ -2,7 +2,7 @@
 
 pwd
 
-git apply /home/binstar/source/skyfield/fix_unicode.patch
+git apply < /home/binstar/source/skyfield/fix_unicode.patch
 
 $PYTHON setup.py install
 

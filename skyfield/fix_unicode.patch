@@ -1,3 +1,12 @@
+From e3c22622988a4a9b70f4645e938a0d2f35f77584 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Pawe=C5=82=20T=2E=20Jochym?= <pawel.jochym@ifj.edu.pl>
+Date: Thu, 3 Sep 2015 15:07:13 +0200
+Subject: [PATCH] Remove invalid unicode from README.rst
+
+---
+ README.rst | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/README.rst b/README.rst
 index e9a0067..6c19c1c 100644
 --- a/README.rst
@@ -11,3 +20,6 @@ index e9a0067..6c19c1c 100644
  and makes it easy to generate high precision research-grade
  positions for planets and Earth satellites.
  
+-- 
+2.5.1
+
