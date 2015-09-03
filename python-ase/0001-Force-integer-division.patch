@@ -1,0 +1,25 @@
+From d558197fbea3e47a03b95c2fcbb6c58f7a83ef6b Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Pawe=C5=82=20T=2E=20Jochym?= <pawel.jochym@ifj.edu.pl>
+Date: Thu, 3 Sep 2015 20:37:44 +0200
+Subject: [PATCH] Force integer division.
+
+---
+ ase/io/vasp.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ase/io/vasp.py b/ase/io/vasp.py
+index b54adb4..54521ee 100644
+--- a/ase/io/vasp.py
++++ b/ase/io/vasp.py
+@@ -266,7 +266,7 @@ def read_vasp_out(filename='OUTCAR', index=-1):
+                     temp = temp[0:temp.find(c)]
+             species += [temp]
+         if 'ions per type' in line:
+-            species = species[:len(species) / 2]
++            species = species[:len(species) // 2]
+             temp = line.split()
+             for ispecies in range(len(species)):
+                 species_num += [int(temp[ispecies + 4])]
+-- 
+2.5.1
+
