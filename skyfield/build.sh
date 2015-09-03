@@ -1,6 +1,7 @@
 #!/bin/bash
 
-pwd
+PWD=`pwd`
+echo $PWD
 
 git apply -v < /home/binstar/source/skyfield/fix_unicode.patch
 
