@@ -35,6 +35,7 @@ engine:
 
 script:
   - conda update -n root conda-build
+  - conda config add -n root -c auto
   - conda build .
 
 #===============================================================================
