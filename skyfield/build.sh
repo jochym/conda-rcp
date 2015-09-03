@@ -1,8 +1,8 @@
 #!/bin/bash
 
-ls -lR ..
+ls -lR /home/binstar/
 
-git apply ../fix_unicode.patch
+git apply /home/binstar/source/fix_unicode.patch
 
 $PYTHON setup.py install
 
