@@ -1,5 +1,9 @@
 #!/bin/bash
 
+ls -lR ..
+
+git apply ../fix_unicode.patch
+
 $PYTHON setup.py install
 
 # Add more build steps here, if they are necessary.
