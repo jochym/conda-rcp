@@ -9,7 +9,8 @@ source:
    # List any patch files here
    # - fix.patch
 
-# build:
+build:
+  number: 1
   # preserve_egg_dir: True
   # entry_points:
     # Put any entry points (scripts to be generated automatically) here. The
@@ -19,10 +20,6 @@ source:
     #
     # Would create an entry point called jplephem that calls jplephem.main()
 
-
-  # If this is a new build for the same version, increment the build
-  # number. If you do not include this key, it defaults to 0.
-  # number: 1
 
 requirements:
   build:
