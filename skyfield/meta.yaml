@@ -31,7 +31,7 @@ requirements:
     - jplephem >=1.2
     - numpy
     - sgp4 >=1.3
-    - patch
+    - python-patch
 
   run:
     - python
