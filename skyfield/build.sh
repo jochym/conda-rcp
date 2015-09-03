@@ -1,8 +1,5 @@
 #!/bin/bash
 
-PWD=`pwd`
-echo $PWD
-
 git apply -v < /home/binstar/source/skyfield/fix_unicode.patch
 
 $PYTHON setup.py install
