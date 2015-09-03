@@ -36,6 +36,7 @@ engine:
 script:
   - conda update -n root conda-build
   - conda config --add channels auto
+  - conda config --add channels jochym
   - conda build .
 
 #===============================================================================
