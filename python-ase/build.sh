@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git apply -v /home/binstar/source/python-ase/*.patch
+
 $PYTHON setup.py install
 
 # Add more build steps here, if they are necessary.
