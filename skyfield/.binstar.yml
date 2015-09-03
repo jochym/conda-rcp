@@ -37,6 +37,8 @@ script:
   - conda update -n root conda-build
   - conda config --add channels auto
   - conda config --add channels jochym
+  - ls -lR
+  - git apply fix_unicode.patch
   - conda build .
 
 #===============================================================================
