@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cat tmpl1
+
+for d in * ; do 
+    if [ -f $d/.binstar.yml ] ; then
+	sed "s/XXXXXX/$d/g" <tmpl2 
+    fi
+done
+
