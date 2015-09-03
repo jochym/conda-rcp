@@ -37,7 +37,7 @@ script:
   - conda update -n root conda-build
   - conda config --add channels auto
   - conda config --add channels jochym
-  - apt-get install patch
+  - yum install patch
   - conda build .
 
 #===============================================================================
