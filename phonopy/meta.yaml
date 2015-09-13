@@ -1,10 +1,10 @@
 package:
   name: phonopy
-  version: !!str 1.9.6.1
+  version: !!str 1.9.6.2
 
 source:
   #git_url: https://github.com/atztogo/phonopy.git
-  url: http://downloads.sourceforge.net/project/phonopy/phonopy/phonopy-1.9/phonopy-1.9.6.1.tar.gz
+  url: http://downloads.sourceforge.net/project/phonopy/phonopy/phonopy-1.9/phonopy-1.9.6.2.tar.gz
   fn: phonopy.tgz
 
 build:
