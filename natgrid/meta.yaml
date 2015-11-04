@@ -18,7 +18,7 @@ build:
 
   # If this is a new build for the same version, increment the build
   # number. If you do not include this key, it defaults to 0.
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -50,9 +50,9 @@ test:
     # - nose
 
 about:
-  home: http://www.stsci.edu/resources/software_hardware/pyfits
-  license: BSD License
-  summary: 'Reads FITS images and tables into numpy arrays and manipulates FITS headers'
+  home: https://github.com/matplotlib/natgrid
+  license: 'NCL Source Code License'
+  summary: 'NN interpolation library for MPL'
 
 # See
 # http://docs.continuum.io/conda/build.html for
