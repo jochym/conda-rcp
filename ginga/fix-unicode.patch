@@ -1,0 +1,15 @@
+diff --git a/README.txt b/README.txt
+index 5050c5d..7c6c222 100644
+--- a/README.txt
++++ b/README.txt
+@@ -53,8 +53,8 @@ http://ejeschke.github.com/ginga
+ 
+ ETYMOLOGY
+ ---------
+-"Ginga" is the romanized spelling of the Japanese word "銀河"
+-(hiragana: ぎんが), meaning "galaxy" (in general) and, more familiarly,
++"Ginga" is the romanized spelling of the Japanese word, 
++meaning "galaxy" (in general) and, more familiarly,
+ the Milky Way.  This viewer was written by software engineers at Subaru
+ Telescope, National Astronomical Observatory of Japan--thus the
+ connection. 
