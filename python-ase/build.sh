@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git apply -v /home/binstar/source/python-ase/*.patch
+git apply -v /home/anaconda/source/python-ase/*.patch
 
 $PYTHON setup.py install
 
