@@ -1,6 +1,6 @@
 package:
   name: phonopy-dev
-  version: !!str v1.9.4dev
+  version: !!str v1.10.0dev
 
 source:
   git_url: https://github.com/jochym/phonopy.git
