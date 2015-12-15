@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd python/ase
+cd pyspglib
 $PYTHON setup.py install
 
 # Add more build steps here, if they are necessary.

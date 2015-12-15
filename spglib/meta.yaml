@@ -1,11 +1,10 @@
 package:
   name: spglib
-  version: !!str 1.8.2.2
+  version: !!str 1.8.3.1
 
 source:
   git_url: https://github.com/jochym/spglib.git
-  git_tag: v1.8.2.2
-  #url: http://downloads.sourceforge.net/project/spglib/spglib/spglib-1.7/spglib-1.7.4.tar.gz
+  git_tag: v1.8.3.1
 
 build:
   preserve_egg_dir: True
