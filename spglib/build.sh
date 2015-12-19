@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git apply $RECIPE_DIR/0001-Fix-from-PyInt_FromLong-to-PyLong_FromLong.patch
 cd pyspglib
 $PYTHON setup.py install
 

@@ -4,7 +4,13 @@ package:
 
 source:
   git_url: https://github.com/jochym/spglib.git
-  git_tag: v1.8.3.1
+  git_rev: 4254dcf349e79d077b68fc8ba09cf74c0cb008e2
+  
+  patches:
+#    - 0001-Fix-from-PyInt_FromLong-to-PyLong_FromLong.patch
+#  git_url: https://github.com/jochym/spglib.git
+#  git_tag: v1.8.3.1
+
 
 build:
   preserve_egg_dir: True
