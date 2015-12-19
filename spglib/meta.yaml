@@ -1,5 +1,5 @@
 package:
-  name: spglib
+  name: pyspglib
   version: !!str 1.8.3.1
 
 source:
