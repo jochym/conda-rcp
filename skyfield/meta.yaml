@@ -1,10 +1,10 @@
 package:
   name: skyfield
-  version: "0.6"
+  version: "0.6.1"
 
 source:
   git_url: https://github.com/skyfielders/python-skyfield.git
-  git_tag: 0.6
+  git_tag: 0.6.1
   #patches:
   # List any patch files here
   #  - fix_unicode.patch
