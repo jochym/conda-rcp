@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git apply -v < $RECIPE_DIR/fix_unicode.patch
+#git apply -v < $RECIPE_DIR/fix_unicode.patch
 
 $PYTHON setup.py install
 
