@@ -20,6 +20,8 @@ requirements:
     - python
     - traitlets
     - psutil
+    - pyyaml
+    - jupyter
 
   run:
     - ipython >=4
