@@ -1,10 +1,12 @@
 package:
   name: python-ase
-  version: "3.9.1"
+#  version: {{ environ.get('GIT_DESCRIBE_TAG', '') }}
 
 source:
-  fn:  python-ase-3.9.1.4567.tar.gz
-  url: https://wiki.fysik.dtu.dk/ase-files/python-ase-3.9.1.4567.tar.gz
+#  fn:  python-ase-3.9.1.4567.tar.gz
+#  url: https://wiki.fysik.dtu.dk/ase-files/python-ase-3.9.1.4567.tar.gz
+  git_url: https://gitlab.com/jochym/ase.git
+  git_branch: release
 #  patches:
    # List any patch files here
    # - fix.patch
