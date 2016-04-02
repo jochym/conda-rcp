@@ -1,41 +1,36 @@
-package:
-  name: nbextensions
-  version: 4.0
-
-source:
-  git_url: https://github.com/ipython-contrib/IPython-notebook-extensions.git
-  git_branch: master
-
-build:
-  script: python setup.py install
-  
-requirements:
-  build:
-    - ipython >=4
-    - jupyter_client
-    - jupyter_core
-    - notebook
-    - nbconvert
-    - nbformat
-    - python
-    - traitlets
-    - psutil
-    - pyyaml
-    - jupyter
-
-  run:
-    - ipython >=4
-    - jupyter_client
-    - jupyter_core
-    - notebook
-    - nbconvert
-    - nbformat
-    - python
-    - traitlets
-    - pyyaml
-
 about:
   home: https://github.com/ipython-contrib/IPython-notebook-extensions
-  license:  Modified BSD License
-  summary: 'Notebook extensions for the Jupyter/IPython notebook'
-
+  license: Modified BSD License
+  summary: Notebook extensions for the Jupyter/IPython notebook
+build:
+  number: 0
+  script: python setup.py install
+package:
+  name: nbextensions
+  version: 4.1.17b9a2
+requirements:
+  build:
+  - ipython >=4
+  - jupyter_client
+  - jupyter_core
+  - notebook
+  - nbconvert
+  - nbformat
+  - python
+  - traitlets
+  - psutil
+  - pyyaml
+  - jupyter
+  run:
+  - ipython >=4
+  - jupyter_client
+  - jupyter_core
+  - notebook
+  - nbconvert
+  - nbformat
+  - python
+  - traitlets
+  - pyyaml
+source:
+  git_branch: master
+  git_url: https://github.com/ipython-contrib/IPython-notebook-extensions.git
