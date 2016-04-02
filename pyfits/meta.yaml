@@ -3,7 +3,7 @@ about:
   license: BSD License
   summary: Reads FITS images and tables into numpy arrays and manipulates FITS headers
 build:
-  number: 0
+  number: 1
 package:
   name: pyfits
   version: 3.4.0
@@ -18,7 +18,7 @@ requirements:
   - python
   - numpy
 source:
-  git_tag: v3.3.0
+  git_tag: v3.4.0
   git_url: https://github.com/spacetelescope/PyFITS.git
 test:
   imports:
