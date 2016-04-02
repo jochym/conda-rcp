@@ -3,7 +3,7 @@ about:
   license: BSD License
   summary: Reads FITS images and tables into numpy arrays and manipulates FITS headers
 build:
-  number: 2
+  number: 3
 package:
   name: pyfits
   version: 3.4.0
