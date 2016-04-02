@@ -3,6 +3,7 @@ package: pyvo
 engine:
   - python=2
   - python=3
+  - python=3.4
 ## The env param is an environment variable list 
 # engine:
 #  - MY_ENV=A CC=gcc
@@ -21,7 +22,7 @@ engine:
 ## Put your main computations here!  
 script:
   - conda update -n root conda-build
-  - conda config --add channels http://conda.binstar.org/jochym
+  - conda config --add channels jochym
   - conda build .
 
 ## This will run after the script regardless of the result of script
