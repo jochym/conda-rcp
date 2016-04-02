@@ -3,7 +3,7 @@ about:
   license: LGPLv2.1+
   summary: Atomic Simulation Environment
 build:
-  number: 0
+  number: 2
 package:
   name: python-ase
   version: 3.10.0
@@ -18,22 +18,21 @@ requirements:
   - matplotlib
   - scipy
 source:
-  fn: ase-3.9.1.tar.gz
+  fn: ase-3.10.0.tar.gz
   md5: 87854bb3b43d1a57b0c3db4b5addcee3
-  md5_digest: 7ad1101c8dcda0b0dae5c7b52e424b87
   url: https://pypi.python.org/packages/source/a/ase/ase-3.10.0.tar.gz
 test:
+  commands:
+  - python -m ase.test
   imports:
   - ase
   - ase.calculators
   - ase.cli
   - ase.cluster
-  - ase.cluster.data
   - ase.data
   - ase.db
   - ase.dft
   - ase.gui
-  - ase.gui.languages
   - ase.io
   - ase.lattice
   - ase.lattice.spacegroup
@@ -44,7 +43,6 @@ test:
   - ase.test.abinit
   - ase.test.aims
   - ase.test.castep
-  - ase.test.cmr
   - ase.test.elk
   - ase.test.exciting
   - ase.test.fio
@@ -52,7 +50,6 @@ test:
   - ase.test.gaussian
   - ase.test.gromacs
   - ase.test.jacapo
-  - ase.test.mopac
   - ase.test.nwchem
   - ase.test.tasks
   - ase.test.vasp
