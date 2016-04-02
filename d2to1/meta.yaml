@@ -19,7 +19,7 @@ requirements:
   - setuptools
   - setuptools
 source:
-  fn: d2to1-0.2.11.tar.gz
+  fn: d2to1-0.2.12.post1.tar.gz
   md5: 1ba7e64ead23cbf104993122f0871030
   url: https://pypi.python.org/packages/source/d/d2to1/d2to1-0.2.12.post1.tar.gz
 test:
