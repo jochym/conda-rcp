@@ -18,7 +18,7 @@ requirements:
   - matplotlib
   - scipy
 source:
-  fn: ase-3.9.1.tar.gz
+  fn: ase-3.10.0.tar.gz
   md5: 87854bb3b43d1a57b0c3db4b5addcee3
   url: https://pypi.python.org/packages/source/a/ase/ase-3.10.0.tar.gz
 test:
