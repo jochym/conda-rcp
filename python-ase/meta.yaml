@@ -1,15 +1,13 @@
 package:
   name: python-ase
-#  version: {{ environ.get('GIT_DESCRIBE_TAG', '') }}
+  version: 3.9.1.4567
 
 source:
-#  fn:  python-ase-3.9.1.4567.tar.gz
-#  url: https://wiki.fysik.dtu.dk/ase-files/python-ase-3.9.1.4567.tar.gz
-  git_url: https://gitlab.com/jochym/ase.git
-  git_branch: release
-#  patches:
-   # List any patch files here
-   # - fix.patch
+  fn:  ase-3.9.1.tar.gz
+  url: https://pypi.python.org/packages/source/a/ase/ase-3.9.1.tar.gz
+  md5_digest: 7ad1101c8dcda0b0dae5c7b52e424b87
+#  git_url: https://gitlab.com/jochym/ase.git
+#  git_branch: release
 
 build:
   # preserve_egg_dir: True
