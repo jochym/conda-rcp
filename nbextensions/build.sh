@@ -1,1 +1,4 @@
-python setup.py install
+
+# mkdir /home/anaconda/.local/share/jupyter
+python setup.py install --user
+
