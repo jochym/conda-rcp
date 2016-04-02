@@ -1,9 +1,9 @@
 package:
   name: nbextensions
-  version: "master"
+  version: 4.0
 
 source:
-  git_url: https://github.com/ipython-contrib/IPython-notebook-extensions
+  git_url: https://github.com/ipython-contrib/IPython-notebook-extensions.git
   git_tag: master
 
 build:
