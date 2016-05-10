@@ -3,7 +3,7 @@ about:
   license: LGPLv2.1+
   summary: Atomic Simulation Environment
 build:
-  number: 0
+  number: 1
 package:
   name: python-ase
   version: 3.11.0
@@ -23,39 +23,11 @@ source:
   url: https://pypi.python.org/packages/fc/7b/558e7321f7a879c034ead5d10789b9d6f41beabaee0b156e807c19422ad0/ase-3.11.0.tar.gz
 test:
   commands:
-  - python -m ase.test
-  imports:
-  - ase
-  - ase.calculators
-  - ase.cli
-  - ase.cluster
-  - ase.data
-  - ase.db
-  - ase.dft
-  - ase.gui
-  - ase.io
-  - ase.lattice
-  - ase.lattice.spacegroup
-  - ase.md
-  - ase.optimize
-  - ase.tasks
-  - ase.test
-  - ase.test.abinit
-  - ase.test.aims
-  - ase.test.castep
-  - ase.test.elk
-  - ase.test.exciting
-  - ase.test.fio
-  - ase.test.fleur
-  - ase.test.gaussian
-  - ase.test.gromacs
-  - ase.test.jacapo
-  - ase.test.nwchem
-  - ase.test.tasks
-  - ase.test.vasp
-  - ase.transport
-  - ase.utils
-  - ase.vibrations
-  - ase.visualize
+    - python -m ase.test
+    - cd ..
+    - PATH=$PATH:$PWD/ase/tools PYTHONPATH=$PWD/ase python -m ase.test
+    - cd ase
+    - PYTHONPATH=$PWD python ase/test/__init__.py
+
   requires:
   - qt
