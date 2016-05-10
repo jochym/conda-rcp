@@ -3,10 +3,10 @@ about:
   license: BSD License
   summary: An astronomical image viewer and toolkit.
 build:
-  number: 1
+  number: 0
 package:
   name: ginga
-  version: 2.5.20160330023527
+  version: 2.5.20160420043855
 requirements:
   build:
   - python
@@ -17,11 +17,11 @@ requirements:
   - python
   - numpy
 source:
-  fn: ginga-2.5.20151230025145.tar.gz
-  md5: 849c10b1d3c8226fb11df3da5ca44924
+  fn: ginga-2.5.20160420043855.tar.gz
+  md5: 3f2af4014b60feb26dcf9408b59f3b3d
   patches:
   - fix-unicode.patch
-  url: https://pypi.python.org/packages/source/g/ginga/ginga-2.5.20160330023527.tar.gz
+  url: https://pypi.python.org/packages/31/33/5ab3c0c437556fe0d6d623e9af5526e074ef3b20b25d05cfa6cf3d10f15b/ginga-2.5.20160420043855.tar.gz
 test:
   imports:
   - ginga

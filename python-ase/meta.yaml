@@ -3,10 +3,10 @@ about:
   license: LGPLv2.1+
   summary: Atomic Simulation Environment
 build:
-  number: 2
+  number: 0
 package:
   name: python-ase
-  version: 3.10.0
+  version: 3.11.0
 requirements:
   build:
   - python
@@ -18,9 +18,9 @@ requirements:
   - matplotlib
   - scipy
 source:
-  fn: ase-3.10.0.tar.gz
-  md5: 87854bb3b43d1a57b0c3db4b5addcee3
-  url: https://pypi.python.org/packages/source/a/ase/ase-3.10.0.tar.gz
+  fn: ase-3.11.0.tar.gz
+  md5: d7afe49d5beb1b1c38d60b1e3dd4e763
+  url: https://pypi.python.org/packages/fc/7b/558e7321f7a879c034ead5d10789b9d6f41beabaee0b156e807c19422ad0/ase-3.11.0.tar.gz
 test:
   commands:
   - python -m ase.test

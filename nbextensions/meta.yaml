@@ -4,10 +4,9 @@ about:
   summary: Notebook extensions for the Jupyter/IPython notebook
 build:
   number: 0
-
 package:
   name: nbextensions
-  version: 4.6+17b9a2
+  version: 4.7+50ae35
 requirements:
   build:
   - ipython >=4
