@@ -1,16 +1,11 @@
-{% set version = "0.1.4" %}
-
 package:
   name: ipycache
-  version: {{ version }}
 
 source:
-  fn: ipycache-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/i/ipycache/ipycache-{{ version }}.zip
-  md5: c78c6094ffab45b0e33c2f556705fa11
+  git_url: https://github.com/vascotenner/ipycache.git
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -23,7 +18,7 @@ requirements:
 
 test:
   commands:
-    - git clone --depth=50 https://github.com/rossant/ipycache.git source
+    - git clone --depth=50 https://github.com/vascotenner/ipycache.git source
     - cd source
     - nosetests
     - python ipynb_runner.py -v -s examples/example.ipynb  # [not win]
