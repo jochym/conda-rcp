@@ -3,7 +3,7 @@ about:
   license: LGPLv2.1+
   summary: Atomic Simulation Environment
 build:
-  number: 2
+  number: 3
 package:
   name: ase
   version: 3.11.0
