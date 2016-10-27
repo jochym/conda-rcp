@@ -3,10 +3,10 @@ about:
   license: LGPLv2.1+
   summary: Atomic Simulation Environment
 build:
-  number: 5
+  number: 0
 package:
   name: ase
-  version: 3.11.0
+  version: 3.12.0
 requirements:
   build:
     - python
@@ -19,9 +19,9 @@ requirements:
     - scipy
     - anaconda-build
 source:
-  fn: ase-3.11.0.tar.gz
-  md5: d7afe49d5beb1b1c38d60b1e3dd4e763
-  url: https://pypi.python.org/packages/fc/7b/558e7321f7a879c034ead5d10789b9d6f41beabaee0b156e807c19422ad0/ase-3.11.0.tar.gz
+  fn: ase-3.12.0.tar.gz
+  md5: adf1915e219d36421aa488fffed1457e
+  url: https://pypi.python.org/packages/ab/d4/4fb1a390d6ca8c4b190285eaecbb0349d3989befd5e670dc14751c715575/ase-3.12.0.tar.gz
 test:
   commands:
     - cat /home/dev/build_script.sh
